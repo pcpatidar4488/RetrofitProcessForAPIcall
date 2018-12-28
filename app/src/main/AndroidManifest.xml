@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.berylsystems.apiusingservices">
+    package="com.example.punamchand.apiusingservices">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,17 +12,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name="com.example.punamchand.apiusingservices.activity.MainActivity">
         </activity>
 
         <service
-            android:name=".network.api_call.ApiCallServices"
+            android:name="com.example.punamchand.apiusingservices.network.api_call.ApiCallServices"
             android:exported="false" />
 
-        <activity android:name=".activity.SignInActivity"/>
+        <activity android:name="com.example.punamchand.apiusingservices.activity.SignInActivity"/>
 
 
-        <activity android:name=".activity.SplashActivity"
+        <activity android:name="com.example.punamchand.apiusingservices.activity.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
